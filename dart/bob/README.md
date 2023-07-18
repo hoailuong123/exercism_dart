@@ -33,19 +33,3 @@ Bob only ever answers one of five things:
   The convention used for silence is nothing, or various combinations of whitespace characters.
 - **"Whatever."**
   This is what he answers to anything else.
-
-## Source
-
-### Created by
-
-- @SuperPaintman
-
-### Contributed to by
-
-- @camuthig
-- @kytrinyx
-- @Stargator
-
-### Based on
-
-Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. - https://pine.fm/LearnToProgram/?Chapter=06
