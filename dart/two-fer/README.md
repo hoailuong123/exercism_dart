@@ -38,17 +38,3 @@ Here are some examples:
 |        |One for you, one for me.
 |Zaphod  |One for Zaphod, one for me.
 
-## Source
-
-### Created by
-
-- @amscotti
-
-### Contributed to by
-
-- @Stargator
-- @kytrinyx
-
-### Based on
-
-https://github.com/exercism/problem-specifications/issues/757

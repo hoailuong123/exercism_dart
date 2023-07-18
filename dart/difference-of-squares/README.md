@@ -18,17 +18,3 @@ Hence the difference between the square of the sum of the first ten natural numb
 You are not expected to discover an efficient solution to this yourself from first principles; research is allowed, indeed, encouraged.
 Finding the best algorithm for the problem is a key skill in software engineering.
 
-## Source
-
-### Created by
-
-- @SuperPaintman
-
-### Contributed to by
-
-- @Stargator
-- @kytrinyx
-
-### Based on
-
-Problem 6 at Project Euler - https://projecteuler.net/problem=6
