@@ -7,6 +7,7 @@ class ProductManager {
   int _nextId = 1;
 
   Future<void> fetchProducts() async {
+    print("Loading....");
     await Future.delayed(Duration(seconds: 2));
     for (int i = 1; i <= 10; i++) {
       products.add(Product(_nextId++, 'Product $i', i * 10.0));
