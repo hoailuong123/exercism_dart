@@ -53,5 +53,5 @@ cd dart/practice
 
 - Step 4: Run the program
 ```bash
-dart run product_management.dart
+dart run main.dart
 ```
