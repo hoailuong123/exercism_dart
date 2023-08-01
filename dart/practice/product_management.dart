@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 import 'product.dart';
 
 class ProductManager {
@@ -10,15 +9,14 @@ class ProductManager {
     print("Loading....");
     await Future.delayed(Duration(seconds: 2));
     for (int i = 1; i <= 10; i++) {
-      products.add(Product(_nextId++, 'Product $i', i * 10.0));
+     products.add(Product(id: _nextId++, name: 'Product $i', price: i*10, note: ''));
       print('Product $i');
     }
     print('Fetched 10 products.');
   }
 
   Future<void> createProduct(String name, double price) async {
-    products.add(Product(_nextId++, name, price));
-    print('Product "$name" added successfully.');
+    products.add(Product(id: _nextId++, name: name , price: price, note: ''));
   }
 
   void showListOfProducts() {

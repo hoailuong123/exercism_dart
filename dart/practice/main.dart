@@ -1,6 +1,4 @@
-import 'dart:async';
 import 'dart:io';
-import 'product.dart';
 import 'product_management.dart';
 
 void main() async {
