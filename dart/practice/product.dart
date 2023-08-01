@@ -2,6 +2,12 @@ class Product {
   int id;
   String name;
   double price;
+  String? note;
 
-  Product(this.id, this.name, this.price);
+  Product({
+      required this.id, 
+      required this.name, 
+      required this.price, 
+      this.note
+      });
 }
